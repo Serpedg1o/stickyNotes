@@ -67,17 +67,9 @@ header a {
     display: flex;
     align-items: center;
 }
-.sticker1 {
+.sticker {
     border: black;
     background: #ffe4e1;
-    width: 300px;
-    height: 300px;
-    margin: 20px 20px 20px 0;
-    box-shadow: -6px 31px 31px -24px #bcb8b8;
-}
-.sticker2 {
-    border: black;
-    background: #b9e8b0;
     width: 300px;
     height: 300px;
     margin: 20px 20px 20px 0;
