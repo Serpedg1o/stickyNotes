@@ -16,7 +16,7 @@ ul, li {
     padding: 0;
 }
 .container {
-    width: 1170px;
+    padding: 0 15em;
     margin: 0 auto;
 }
 .header {
@@ -63,15 +63,30 @@ header a {
     width: 50px;
     margin-right: 69px;
 }
-.boxes {
+.stickerBox {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+.container {
+ padding: 0 15em;   
 }
 .sticker {
-    border: black;
     background: #ffe4e1;
-    width: 300px;
-    height: 300px;
-    margin: 20px 20px 20px 0;
+    width: 350px;
+    height: 350px;
+    margin: 15px 15px 15px 0;
     box-shadow: -6px 31px 31px -24px #bcb8b8;
+}
+.addNewSticker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 15px 15px 15px 0;
+}
+#addNewStickerImg {
+    width: 5;
+    height: 5em;
 }
