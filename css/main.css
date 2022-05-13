@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 10;
+    font-family: 'Anton';
+    color: 000;
+    font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+   padding: 0; 
+   margin: 0;
+   text-transform: uppercase;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+.header {
+    background: url(/img/instagram-hex-colors-gradient-background.png) no-repeat center top / cover;
+    padding-top: 57px;
+}
+header a {
+    color: #fff;
+    }
+.menu {
+    display: flex;
+    letter-spacing: 0.1em;
+}
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+}
+.menu li a:hover {
+    background-color: #fff;
+    color: black;
+}
+.menu li {
+    margin-right: 20px;
+}
+.tel {
+    text-decoration: none;
+    margin-left: auto;
+    letter-spacing: 0.1em;
+    padding: 0 20px;
+    transition: all 0.3s ease;
+}
+.tel:hover {
+    background-color: #fff;
+    color: black;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    margin-right: 69px;
+}
+.boxes {
+    display: flex;
+    align-items: center;
+}
+.sticker1 {
+    border: black;
+    background: #ffe4e1;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 0;
+    box-shadow: -6px 31px 31px -24px #bcb8b8;
+}
+.sticker2 {
+    border: black;
+    background: #b9e8b0;
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px 20px 0;
+    box-shadow: -6px 31px 31px -24px #bcb8b8;
+}
