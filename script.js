@@ -9,10 +9,13 @@
 // addNewStickerButton.onclickt(addNewSticker);
 
 
-document.getElementById('addNewStickerImg').onclick = function(){
-    const newSticker = document.createElement('div');
+const createNewSticker = document.getElementById('addNewStickerImg');
+createNewSticker.onclick = () => {
+    const newSticker = document.createElement('li');
     newSticker.className = 'sticker';
     const stickerBox = document.querySelector('.stickerBox');
-    return stickerBox.append(newSticker);
-    alert("Вы нажали на кнопку");
-  }
+    return stickerBox.insertBefore(newSticker, stickerBox.lastElementChild);
+    alert('проверка скрипта');
+};
+
+  

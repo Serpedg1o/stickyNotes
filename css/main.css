@@ -73,8 +73,8 @@ header a {
 }
 .sticker {
     background: #ffe4e1;
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     margin: 15px 15px 15px 0;
     box-shadow: -6px 31px 31px -24px #bcb8b8;
 }
@@ -82,8 +82,8 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     margin: 15px 15px 15px 0;
 }
 #addNewStickerImg {
