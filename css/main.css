@@ -72,13 +72,13 @@ header a {
  padding: 0 15em;   
 }
 .sticker {
-    background: #ffe4e1;
     width: 320px;
     height: 320px;
     margin: 15px 15px 15px 0;
     box-shadow: -6px 31px 31px -24px #bcb8b8;
     position: relative;
 }
+
 .addNewSticker {
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ header a {
     width: 5em;
     height: 5em;
 }
-#closeButton {
+.closeButton {
     width: 1.2em;
     position: absolute; top: 10px; right: 10px;
 }
